@@ -1,6 +1,14 @@
 # jfrog-api-tests
 Test rest apis with restAssured and testng.
 
+### Rest apis used
+```
+Deploy Artifact (Usage: PUT /repo-key/path/to/artifact.ext)
+Get File stats (sage: GET /api/storage/{repoKey}/{item-path}?stats)
+Delete Item (Usage: DELETE /repo-key/path/to/file-or-folder)
+Get Repositories (Usage: GET /api/repositories[?type=repositoryType (local|remote|virtual|distribution)])
+```
+
 ### Requirements
 ```
 Java 8 or higher
